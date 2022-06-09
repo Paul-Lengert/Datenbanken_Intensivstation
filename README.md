@@ -1,2 +1,8 @@
 # Datenbanken Intensivstation Projekt
-Repo für das Datenbankenprojekt Intensivstation
+
+## Daten Generierung
+Die Scripte für die Generierung der Daten sind im Ordner "python_scripts" zu finden
+
+## Query Generierung
+Die Generierung der SQL Befehle zum Befüllen der Tabellen befinden sich im Ordner "Java"
+

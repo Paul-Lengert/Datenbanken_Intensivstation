@@ -1,0 +1,1 @@
+Hier am besten alles mit Java ablegen in einzelnen Ordnern pro Projekt
