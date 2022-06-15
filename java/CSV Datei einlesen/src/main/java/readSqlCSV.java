@@ -102,10 +102,10 @@ public class readSqlCSV {
 
 
     public static void main(String[] args) {
-        //addFromCSVFilePersonal("/Users/jonaswonneberger/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Allgemeines/Informatik Studium/2. Semster/Datenbanken/personal.csv");
-        addFromCSVFilePatient("/Users/jonaswonneberger/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Allgemeines/Informatik Studium/2. Semster/Datenbanken/PatientList.csv");
-        //addFromCSVFileZimmer("/Users/jonaswonneberger/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Allgemeines/Informatik Studium/2. Semster/Datenbanken/zimmer.csv");
-        //addFromCSVFileBehandlung("/Users/jonaswonneberger/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Allgemeines/Informatik Studium/2. Semster/Datenbanken/treatments.csv");
+        //addFromCSVFilePersonal("../../Ressources/personal.csv");
+        //addFromCSVFilePatient("../../Ressources/PatientList.csv");
+        addFromCSVFileZimmer("../../Ressources/RoomList.csv");
+        //addFromCSVFileBehandlung("../../Ressources/treatmesnt.csv");
     }
 
 }
