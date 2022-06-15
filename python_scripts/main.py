@@ -136,7 +136,7 @@ def createFemalePatients(num, file):
         print(f"added number {i} of female patients.")
 
 
-with open("Ressources/treatments.csv", 'w') as treats, open("Ressources/PatientList.csv", 'r') as pat:
+with open("../Ressources/treatments.csv", 'w') as treats, open("../Ressources/PatientList.csv", 'r') as pat:
     id = 1
     currentPat = pat.readline();
     for i in range(0,100):
