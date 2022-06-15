@@ -1,0 +1,101 @@
+kv_nummer,name,geburtstag,geschlecht,Status,zimmernummer,Diagnose,Arzt
+G628971282,Edmund Kolb,10.12.1989,M,verstorben,~,Anämie,Prof. Dr. Huong Nguyen
+Z267029328,Igor Linden,26.02.1955,M,genesen,~,Kropf,Dr. André Pierowski
+L240191087,Helge Stricker,24.10.1931,M,aktiv,113,Bluthochdruck,Dr. André Pierowski
+H691730014,Leo Bock,06.02.1982,M,verstorben,~,Schlaganfall,Dr. Petra Steinkowski
+P976020276,Lothar Freier,16.09.1948,M,aktiv,110,Meningoenzephalitis,Dr. Dilay Ayad
+L197618627,Maximilian Keil,04.08.2006,M,genesen,~,Gelbsucht,Dr. Dilay Ayad
+E385754395,Friedrich Oppermann,02.09.2019,M,genesen,~,Herzinfarkt,Dr. Gustav Storch
+A901695153,Daniel Imhof,02.09.2004,M,verstorben,~,Anämie,Dr. Gustav Storch
+A305582972,Ferdinand Schröter,15.03.1990,M,verstorben,~,Schlaganfall,Prof. Dr. Huong Nguyen
+P879853233,Emil Steiner,03.07.1994,M,aktiv,107,Pankreaskarzinom,Dr. Petra Steinkowski
+N592203849,Armin Ortner,04.09.1972,M,genesen,~,Gelbsucht,Dr. Dilay Ayad
+B362012758,Adalberto Czech,23.02.2002,M,verstorben,~,Gallensteine,Dr. Dilay Ayad
+M449109249,Ulrich Sievert,20.05.2010,M,verstorben,~,Bluthochdruck,Dr. André Pierowski
+H686328551,Rudolf Kröll,26.02.1936,M,aktiv,113,Speiseröhrenentzündung,André Pierowski
+H768640962,Nico Werth,21.05.2010,M,verstorben,~,Gelbsucht,Dr. André Pierowski
+F762871814,Konrad Neuber,18.05.2006,M,verstorben,~,Bluthochdruck,Dr. Petra Steinkowski
+V561247581,Steven Beil,29.12.2001,M,verstorben,~,Magengeschwür,Dr. Petra Steinkowski
+E826975932,Gunnar Loos,11.11.1969,M,aktiv,104,Addison-Krise,Dr. Petra Steinkowski
+Q858781907,Ulli Westphal,24.09.2013,M,aktiv,109,Borreliose,Dr. Gustav Storch
+N299274177,Gabriel Engl,14.02.2003,M,verstorben,~,Gelbsucht,Prof. Dr. Huong Nguyen
+N222103211,Egon Harms,30.10.1960,M,aktiv,106,Schlaganfall,Prof. Dr. Huong Nguyen
+A856433907,Roberto Bohlmann,11.01.1937,M,verstorben,~,Leberentzündung,Dr. André Pierowski
+V934452746,Benjamin Funk,09.06.1945,M,verstorben,~,Morbus Crohn,Prof. Dr. Huong Nguyen
+I117560600,Augustus Spielmann,19.05.1950,M,verstorben,~,Anämie,Dr. Petra Steinkowski
+P298104998,Philipp Strobl,14.08.1974,M,genesen,~,Niereninsuffizienz,Dr. Gustav Storch
+K422329880,Gerhard Leinweber,16.12.1999,M,aktiv,105,Morbus Crohn,Prof. Dr. Huong Nguyen
+R446369060,Lennart Deininger,24.11.1945,M,verstorben,~,Gelbsucht,Dr. Petra Steinkowski
+Q872395292,Frederik Jochum,30.05.1960,M,genesen,~,Bauchspeicheldrüsenentzündung,Dr. Gustav Storch
+P378300396,Edmund Gabler,28.11.2014,M,verstorben,~,Leberentzündung,Dr. Petra Steinkowski
+A404870479,Peter Karsten,22.06.1975,M,genesen,~,Bluthochdruck,Dr. André Pierowski
+H330779640,Rollo Zacharias,03.07.1958,M,genesen,~,Diabetes,Dr. André Pierowski
+T644075290,Kurt Maack,11.10.2016,M,aktiv,115,Morbus Hodgkin,Dr. André Pierowski
+B710368496,Rüdiger Yildirim,14.07.1933,M,aktiv,115,Addison-Krise,Dr. André Pierowski
+Y543989284,Adalberto Bosse,25.05.1989,M,genesen,~,Nierensteine,Dr. Gustav Storch
+P574614115,Adalberto Straube,16.12.1944,M,verstorben,~,Schlaganfall,Dr. Gustav Storch
+D314898964,Ferdinand Gödecke,05.02.1943,M,genesen,~,Cushing-Syndrom,Dr. Dilay Ayad
+J748144545,Ludwig Thiem,05.12.1949,M,verstorben,~,Schlaganfall,Dr. Dilay Ayad
+L424869968,Leo Andreas,30.10.1941,M,genesen,~,Herzinfarkt,Dr. Gustav Storch
+U930993476,Markus Renner,13.07.1991,M,genesen,~,Schlaganfall,Prof. Dr. Huong Nguyen
+E599021585,Gerhard Hedrich,29.12.2019,M,verstorben,~,Borreliose,Dr. Dilay Ayad
+L895845287,Maximilian Schulten,13.11.1948,M,verstorben,~,Leberentzündung,Dr. Gustav Storch
+U432929354,Albrecht Riegel,31.10.1980,M,verstorben,~,Leberentzündung,Dr. André Pierowski
+H913968432,Friedrich Dunker,25.11.1999,M,verstorben,~,Schlaganfall,Dr. Petra Steinkowski
+R158671319,Heino Rieger,19.11.1994,M,genesen,~,Morbus Hodgkin,Dr. Gustav Storch
+Y851597077,Henning Niehaus,23.03.1982,M,genesen,~,Nierensteine,Dr. Gustav Storch
+L435390118,Lukas Salewski,02.09.1989,M,verstorben,~,Nierensteine,Dr. Petra Steinkowski
+H827629135,Adalberto Zauner,24.02.1960,M,genesen,~,Borreliose,Dr. André Pierowski
+N470125644,Pierre Wegmann,07.07.1989,M,genesen,~,Schlaganfall,Dr. Petra Steinkowski
+T427822839,Uwe Hirt,19.09.1982,M,genesen,~,Bauchspeicheldrüsenentzündung,Dr. Petra Steinkowski
+A899585628,Simon Fricke,28.07.1973,M,verstorben,~,Meningoenzephalitis,Dr. André Pierowski
+D470389622,Jennifer Brettschneider,29.10.1973,W,genesen,~,Borreliose,Dr. Gustav Storch
+I478263323,Rosa Bartel,10.04.2000,W,verstorben,~,Morbus Crohn,Prof. Dr. Huong Nguyen
+H355127847,Sophie Sager,20.12.1990,W,verstorben,~,Bluthochdruck,Dr. André Pierowski
+L315703112,Helene Reinhart,06.06.1964,W,genesen,~,Pankreaskarzinom,Dr. Gustav Storch
+H485030407,Kathrin Flügel,16.10.2000,W,genesen,~,Schilddrüsenentzündung,Dr. André Pierowski
+A620162005,Josepha Gohlke,25.03.1966,W,aktiv,112,Herzinfarkt,Dr. Petra Steinkowski
+C468369553,Josepha Seewald,27.12.1990,W,genesen,~,Bluthochdruck,Prof. Dr. Huong Nguyen
+S957531012,Anneliese Rosner,16.10.2000,W,genesen,~,Gelbsucht,Dr. Petra Steinkowski
+E206437655,Gabriele Jansen,22.06.1985,W,verstorben,~,Bluthochdruck,Dr. Gustav Storch
+Y766583487,Helene Zieger,04.07.1954,W,genesen,~,Gelbsucht,Dr. Dilay Ayad
+R276723739,Helen Sippel,24.07.1943,W,aktiv,102,Gelbsucht,Prof. Dr. Huong Nguyen
+W895227094,Agathe Back,16.07.1947,W,verstorben,~,Nierensteine,Dr. Dilay Ayad
+D266051428,Gabi Messer,15.04.2000,W,aktiv,109,Bluthochdruck,Dr. Gustav Storch
+Y490331727,Maria Bausch,07.03.1998,W,genesen,~,Speiseröhrenentzündung,Prof. Dr. Huong Nguyen
+O375692367,Christel Wittmann,12.02.2017,W,aktiv,110,Gelbsucht,Dr. Dilay Ayad
+S855759221,Gerda Ruge,02.02.2016,W,verstorben,~,Speiseröhrenentzündung,Dr. Gustav Storch
+Z963273970,Anja Both,19.09.1946,W,aktiv,111,Speiseröhrenentzündung,Dr. Dilay Ayad
+R978643344,Amelie Fleck,19.02.1957,W,aktiv,111,Schlaganfall,Dr. Dilay Ayad
+L245959690,Nico Gruber,04.10.1983,W,aktiv,101,Kropf,Prof. Dr. Huong Nguyen
+U180958468,Friederike Lindenau,02.03.1970,W,genesen,~,Schlaganfall,Dr. André Pierowski
+P684626120,Xenia Jentzsch,12.11.1955,W,aktiv,108,SLE,Dr. Petra Steinkowski
+Y709666366,Agathe Schöttler,15.12.1971,W,genesen,~,Bluthochdruck,Dr. André Pierowski
+R215582742,Christel Schulze,05.05.1998,W,genesen,~,Leberentzündung,Dr. André Pierowski
+X666746260,Pia Wernicke,22.03.2014,W,verstorben,~,Addison-Krise,Dr. Gustav Storch
+J736220793,Christel Reiners,18.03.1973,W,verstorben,~,Diabetes,Dr. André Pierowski
+S406797265,Gert Häcker,19.10.1942,W,genesen,~,Magengeschwür,Dr. Petra Steinkowski
+P300923632,Conny Berger,14.07.2012,W,genesen,~,Addison-Krise,Dr. Petra Steinkowski
+M276893250,Eveline Quade,06.05.1953,W,aktiv,112,Cushing-Syndrom,Dr. Petra Steinkowski
+S781396228,Susanne Bußmann,10.06.1961,W,aktiv,108,Pankreaskarzinom,Dr. Gustav Storch
+G770145574,Patrizia Alles,14.12.1967,W,verstorben,~,Schlaganfall,Dr. Dilay Ayad
+R541581442,Kristine Diel,11.03.2008,W,verstorben,~,Gallensteine,Dr. Gustav Storch
+B229682746,Grit Neumeister,05.02.1946,W,verstorben,~,Niereninsuffizienz,Prof. Dr. Huong Nguyen
+N943201928,Nico Herzog,03.04.1978,W,verstorben,~,Speiseröhrenentzündung,Dr. Petra Steinkowski
+H789115909,Karla Buhr,11.05.1989,W,genesen,~,Afrikanisches Zeckenstichfieber,Prof. Dr. Huong Nguyen
+E484055178,Michaela Buhr,08.03.1938,W,verstorben,~,Cushing-Syndrom,Dr. Gustav Storch
+B560827956,Gisela Maurer,03.11.2015,W,genesen,~,SLE,Dr. Petra Steinkowski
+U336568751,Doris Heindl,26.01.1938,W,genesen,~,Kropf,Dr. Dilay Ayad
+R613695096,Franziska Thormann,24.01.2001,W,verstorben,~,Anämie,Dr. Petra Steinkowski
+N844583031,Adriane Stemmler,11.09.1979,W,genesen,~,SLE,Prof. Dr. Huong Nguyen
+D803886098,Ute Behrend,24.03.2018,W,verstorben,~,Nierensteine,Dr. Gustav Storch
+N697173755,Sophie Mück,17.07.1950,W,verstorben,~,Niereninsuffizienz,Dr. Gustav Storch
+V621618812,Thusnelda Böttner,11.03.1930,W,genesen,~,SLE,Dr. Dilay Ayad
+T382229709,Cordula Markus,11.08.2006,W,verstorben,~,Herzinfarkt,Dr. Gustav Storch
+W981678841,Leonora Ewers,17.06.1987,W,genesen,~,Speiseröhrenentzündung,Dr. Gustav Storch
+J466283427,Friederike Schürer,07.05.1950,W,genesen,~,Nierensteine,Dr. Petra Steinkowski
+Q466989620,Pia Schumann,21.07.1961,W,verstorben,~,Herzinfarkt,Prof. Dr. Huong Nguyen
+H715684882,Silvia Reiners,13.02.1968,W,genesen,~,Leberentzündung,Dr. André Pierowski
+G598286051,Janine Goebel,27.09.1984,W,verstorben,~,Herzinfarkt,Dr. André Pierowski
+G615273922,Justine Weinrich,26.05.1949,W,verstorben,~,Kropf,Dr. Gustav Storch
+X594555009,Frieda Kinder,26.01.1936,W,verstorben,~,Leberentzündung,Dr. Petra Steinkowski
