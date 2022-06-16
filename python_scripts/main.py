@@ -89,7 +89,8 @@ def createMalePatients(num, file):
             # Belegung des konkreten Raumes
             if current_state == "aktiv" and room_counter < 10:
                 current_room = random.choice(rooms)
-                while (current_room < 106 and current_text.count(',' + str(current_room) + ',') >= 1) or (105 < current_room <= 115 and current_text.count(',' + str(current_room) + ',') >= 2):
+                while (current_room < 106 and current_text.count(',' + str(current_room) + ',') >= 1) or (
+                        105 < current_room <= 115 and current_text.count(',' + str(current_room) + ',') >= 2):
                     current_room = random.choice(rooms)
                 room_counter += 1
             else:
@@ -103,7 +104,9 @@ def createMalePatients(num, file):
             while current_kv in current_text:
                 current_kv = KVNumber()
 
-            patients.writelines(current_kv + ',' + firstname_male("MaenlicheVornamen.txt") + ' ' + lastname("Nachnamen.txt") + ',' + birthday() + ',M,' + current_state + ',' + str(current_room) + ',' + random.choice(diseases) + ',' + current_doc + "\n")
+            patients.writelines(current_kv + ',' + firstname_male("MaenlicheVornamen.txt") + ' ' + lastname(
+                "Nachnamen.txt") + ',' + birthday() + ',M,' + current_state + ',' + str(
+                current_room) + ',' + random.choice(diseases) + ',' + current_doc + "\n")
         print(f"added number {i} of male patients.")
 
 
@@ -120,7 +123,8 @@ def createFemalePatients(num, file):
             # Belegung des konkreten Raumes
             if current_state == "aktiv" and room_counter < 10:
                 current_room = random.choice(rooms)
-                while (current_room < 106 and current_text.count(',' + str(current_room) + ',') >= 1) or (105 < current_room <= 115 and current_text.count(',' + str(current_room) + ',') >= 2):
+                while (current_room < 106 and current_text.count(',' + str(current_room) + ',') >= 1) or (
+                        105 < current_room <= 115 and current_text.count(',' + str(current_room) + ',') >= 2):
                     current_room = random.choice(rooms)
                 room_counter += 1
             else:
@@ -134,7 +138,9 @@ def createFemalePatients(num, file):
             while current_kv in current_text:
                 current_kv = KVNumber()
             patients.write(
-                current_kv + ',' + firstname_female("WeiblicheVornamen.txt") + ' ' + lastname("Nachnamen.txt") + ',' + birthday() + ',W,' + current_state + ',' + str(current_room) + ',' + random.choice(diseases) + ',' + current_doc + "\n")
+                current_kv + ',' + firstname_female("WeiblicheVornamen.txt") + ' ' + lastname(
+                    "Nachnamen.txt") + ',' + birthday() + ',W,' + current_state + ',' + str(
+                    current_room) + ',' + random.choice(diseases) + ',' + current_doc + "\n")
         print(f"added number {i} of female patients.")
 
 
@@ -142,7 +148,7 @@ def treatments():
     with open("../Ressources/treatments.csv", 'w') as treats, open("../Ressources/PatientList.csv", 'r') as pat:
         id = 1
         currentPat = pat.readline();
-        for i in range(0,100):
+        for i in range(0, 100):
             currentPat = pat.readline().split(',')
             fromDate = treatDate()
             toDate = treatDate()
@@ -168,28 +174,39 @@ def treatments():
             if currentPat[4] == "aktiv":
                 continue;
             else:
-                treats.write(str(id)+','+currentPat[0]+','+currentPat[4]+','+currentPat[6]+','+currentDocs+','+str(fromDate)+','+str(toDate)+"\n");
-                treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[6] + ',' + secondDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
+                treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[
+                    6] + ',' + currentDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
+                treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[
+                    6] + ',' + secondDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
                 id += 1
 
 
 def shift():
     with open("../Ressources/shift.csv", 'w') as sh:
-        #Generiert die Woche
-        for i in range(1,55):
-            #Generiert die Frühschicht
-            for j in range(1,6):
-                sh.write(str(i) +",2022,Frühschicht,A" + str(j)+"\n")
-            for g in range(1,11):
-                sh.write(str(i) + ",2022,Frühschicht,P" + str(g)+"\n")
-            #Generiert die Tagesschicht
-            for h in range(6,11):
-                sh.write(str(i) + ",2022,Tagesschicht,A" + str(h)+"\n")
-            for k in range(11,21):
-                sh.write(str(i) + ",2022,Tagesschicht,P" + str(k)+"\n")
-            for l in range(11,13):
-            #Generiert die Nachtschicht
-                sh.write(str(i) + ",2022,Nachtschicht,A" + str(l)+"\n")
-            for m in range(22,28):
-                sh.write(str(i) + ",2022,Nachtschicht,P" + str(m)+"\n")
+        id = 25430
+        # Generiert die Woche
+        for i in range(1, 55):
+            # Generiert die Frühschicht
+            for j in range(1, 6):
+                sh.write(str(id) + ',' + str(i) + ",2022,Frühschicht,A" + str(j) + "\n")
+                id += 1
+            for g in range(1, 11):
+                sh.write(str(id) + ',' + str(i) + ",2022,Frühschicht,P" + str(g) + "\n")
+                id += 1
+            # Generiert die Tagesschicht
+            for h in range(6, 11):
+                sh.write(str(id) + ',' + str(i) + ",2022,Tagesschicht,A" + str(h) + "\n")
+                id += 1
+            for k in range(11, 21):
+                sh.write(str(id) + ',' + str(i) + ",2022,Tagesschicht,P" + str(k) + "\n")
+                id += 1
+            # Generiert die Nachtschicht
+            for l in range(11, 13):
+                sh.write(str(id) + ',' + str(i) + ",2022,Nachtschicht,A" + str(l) + "\n")
+                id += 1
+            for m in range(22, 28):
+                sh.write(str(id) + ',' + str(i) + ",2022,Nachtschicht,P" + str(m) + "\n")
+                id += 1
+
+
 shift()
