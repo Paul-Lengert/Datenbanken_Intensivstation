@@ -28,6 +28,7 @@ def birthday():
     random_date = start_date + datetime.timedelta(days=random_number_of_days)
     return random_date.strftime('%d.%m.%Y')
 
+
 def treatDate():
     start_date = datetime.date(2011, 1, 1)
     end_date = datetime.date(2020, 1, 1)
@@ -36,6 +37,7 @@ def treatDate():
     random_number_of_days = random.randrange(days_between_dates)
     random_date = start_date + datetime.timedelta(days=random_number_of_days)
     return random_date.strftime('%Y-%m-%d')
+
 
 def firstname_male(firstName):
     firstNameList = []
@@ -136,35 +138,58 @@ def createFemalePatients(num, file):
         print(f"added number {i} of female patients.")
 
 
-with open("../Ressources/treatments.csv", 'w') as treats, open("../Ressources/PatientList.csv", 'r') as pat:
-    id = 1
-    currentPat = pat.readline();
-    for i in range(0,100):
-        currentPat = pat.readline().split(',')
-        fromDate = treatDate()
-        toDate = treatDate()
-        currentDocs = ""
-        secondDocs = ""
-        if currentPat[7] == "Prof. Dr. Huong Nguyen\n":
-            currentDocs = "A1"
-            secondDocs = "A6"
-        elif currentPat[7] == "Dr. Gustav Storch\n":
-            currentDocs = "A2"
-            secondDocs = "A7"
-        elif currentPat[7] == "Dr. Petra Steinkowski\n":
-            currentDocs = "A3"
-            secondDocs = "A8"
-        elif currentPat[7] == "Dr. Dilay Ayad\n":
-            currentDocs = "A4"
-            secondDocs = "A9"
-        elif currentPat[7] == "Dr. André Pierowski\n":
-            currentDocs = "A5"
-            secondDocs = "A10"
-        while toDate < fromDate:
+def treatments():
+    with open("../Ressources/treatments.csv", 'w') as treats, open("../Ressources/PatientList.csv", 'r') as pat:
+        id = 1
+        currentPat = pat.readline();
+        for i in range(0,100):
+            currentPat = pat.readline().split(',')
+            fromDate = treatDate()
             toDate = treatDate()
-        if currentPat[4] == "aktiv":
-            continue;
-        else:
-            treats.write(str(id)+','+currentPat[0]+','+currentPat[4]+','+currentPat[6]+','+currentDocs+','+str(fromDate)+','+str(toDate)+"\n");
-            treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[6] + ',' + secondDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
-            id += 1
+            currentDocs = ""
+            secondDocs = ""
+            if currentPat[7] == "Prof. Dr. Huong Nguyen\n":
+                currentDocs = "A1"
+                secondDocs = "A6"
+            elif currentPat[7] == "Dr. Gustav Storch\n":
+                currentDocs = "A2"
+                secondDocs = "A7"
+            elif currentPat[7] == "Dr. Petra Steinkowski\n":
+                currentDocs = "A3"
+                secondDocs = "A8"
+            elif currentPat[7] == "Dr. Dilay Ayad\n":
+                currentDocs = "A4"
+                secondDocs = "A9"
+            elif currentPat[7] == "Dr. André Pierowski\n":
+                currentDocs = "A5"
+                secondDocs = "A10"
+            while toDate < fromDate:
+                toDate = treatDate()
+            if currentPat[4] == "aktiv":
+                continue;
+            else:
+                treats.write(str(id)+','+currentPat[0]+','+currentPat[4]+','+currentPat[6]+','+currentDocs+','+str(fromDate)+','+str(toDate)+"\n");
+                treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[6] + ',' + secondDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
+                id += 1
+
+
+def shift():
+    with open("../Ressources/shift.csv", 'w') as sh:
+        #Generiert die Woche
+        for i in range(1,55):
+            #Generiert die Frühschicht
+            for j in range(1,6):
+                sh.write(str(i) +",2022,Frühschicht,A" + str(j)+"\n")
+            for g in range(1,11):
+                sh.write(str(i) + ",2022,Frühschicht,P" + str(g)+"\n")
+            #Generiert die Tagesschicht
+            for h in range(6,11):
+                sh.write(str(i) + ",2022,Tagesschicht,A" + str(h)+"\n")
+            for k in range(11,21):
+                sh.write(str(i) + ",2022,Tagesschicht,P" + str(k)+"\n")
+            for l in range(11,13):
+            #Generiert die Nachtschicht
+                sh.write(str(i) + ",2022,Nachtschicht,A" + str(l)+"\n")
+            for m in range(22,28):
+                sh.write(str(i) + ",2022,Nachtschicht,P" + str(m)+"\n")
+shift()

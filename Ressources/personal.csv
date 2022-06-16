@@ -1,53 +1,53 @@
-personal_id,name,berufsbezeichnung,verfügbarkeit,status
-A1,Prof. Dr. Huong Nguyen,Internist*in,verfügbar,Medizinisches Personal
-A2,Dr. Gustav Storch,Internist*in,verfügbar,Medizinisches Personal
-A3,Dr. Petra Steinkowski,Internist*in,verfügbar,Medizinisches Personal
-A4,Dr. Dilay Ayad,Internist*in,verfügbar,Medizinisches Personal
-A5,Dr. André Pierowski,Internist*in,verfügbar,Medizinisches Personal
-A6,Dr. Manuela Rodriguez,Internist*in,verfügbar,Medizinisches Personal
-A7,Dr. Helen Herzog,Internist*in,Urlaub,Medizinisches Personal
-A8,Dr. Rosa Piersch,Internist*in,verfügbar,Medizinisches Personal
-A9,Dr. Nicolaus Tegel,Internist*in,verfügbar,Medizinisches Personal
-A10,Dr. Thung Le,Internist*in,Urlaub,Medizinisches Personal
-A11,Dr. Mohammed Al Arez,Internist*in,verfügbar,Medizinisches Personal
-A12,Dr. Aylin Yilmaz,Internist*in,verfügbar,Medizinisches Personal
-P1,Leopold Gruner,Pflegekraft,verfügbar,Pflegepersonal
-P2,Holly Kick,Pflegekraft,verfügbar,Pflegepersonal
-P3,Niels Buch,Pflegekraft,verfügbar,Pflegepersonal
-P4,Rebecca Koppe,Pflegekraft,verfügbar,Pflegepersonal
-P5,Daniel Bauer,Pflegekraft,verfügbar,Pflegepersonal
-P6,Conny Steiner,Pflegekraft,verfügbar,Pflegepersonal
-P7,Dietmar Knittel,Pflegekraft,Urlaub,Pflegepersonal
-P8,Tabea Siefert,Pflegekraft,verfügbar,Pflegepersonal
-P9,Heino Grün,Pflegekraft,verfügbar,Pflegepersonal
-P10,Viktoria Scheffel,Oberpflegekraft,verfügbar,Pflegepersonal
-P11,Sandro Laue,Pflegekraft,verfügbar,Pflegepersonal
-P12,Martha Fabian,Pflegekraft,verfügbar,Pflegepersonal
-P13,Emil Strobel,Pflegekraft,verfügbar,Pflegepersonal
-P14,Nico Schneller,Pflegekraft,Urlaub,Pflegepersonal
-P15,Winfried Winter,Pflegekraft,verfügbar,Pflegepersonal
-P16,Michaela Lehmkuhl,Pflegekraft,verfügbar,Pflegepersonal
-P17,Frederik Habermann,Pflegekraft,verfügbar,Pflegepersonal
-P18,Jaqueline Reinartz,Pflegekraft,verfügbar,Pflegepersonal
-P19,Oskar Görgen,Pflegekraft,verfügbar,Pflegepersonal
-P20,Dora Baumgarten,Oberpflegekraft,verfügbar,Pflegepersonal
-P21,Ferdinand Dobler,Pflegekraft,verfügbar,Pflegepersonal
-P22,Julia Maisch,Pflegekraft,verfügbar,Pflegepersonal
-P23,Kai Wallner,Pflegekraft,verfügbar,Pflegepersonal
-P24,Frieda Linder,Pflegekraft,verfügbar,Pflegepersonal
-P25,Henning Thieme,Pflegekraft,verfügbar,Pflegepersonal
-P26,Elvira Sowa,Pflegekraft,verfügbar,Pflegepersonal
-P27,Almer Lorenz,Pflegekraft,verfügbar,Pflegepersonal
-P28,Rebecca Pabst,Pflegekraft,verfügbar,Pflegepersonal
-P29,Rico Hörmann,Pflegekraft,verfügbar,Pflegepersonal
-P30,Emilie Bast,Pflegekraft,Urlaub,Pflegepersonal
-P31,Sebastian Schill,Pflegekraft,verfügbar,Pflegepersonal
-P32,Melanie Kloos,Pflegekraft,verfügbar,Pflegepersonal
-P33,Henning Gruber,Pflegekraft,verfügbar,Pflegepersonal
-P34,Julia Haack,Pflegekraft,verfügbar,Pflegepersonal
-P35,Marco Baumgarten,Pflegekraft,verfügbar,Pflegepersonal
-P36,Maximiliane Oster,Pflegekraft,verfügbar,Pflegepersonal
-P37,Hanno Bäcker,Pflegekraft,Urlaub,Pflegepersonal
-P38,Erna Breunig,Pflegekraft,verfügbar,Pflegepersonal
-P39,Vinzenz Wolff,Pflegekraft,verfügbar,Pflegepersonal
-P40,Eveline Kiesewetter,Pflegekraft,verfügbar,Pflegepersonal
+personal_id,name,berufsbezeichnung,verfügbarkeit
+A1,Prof. Dr. Huong Nguyen,Internist*in,verfügbar
+A2,Dr. Gustav Storch,Internist*in,verfügbar
+A3,Dr. Petra Steinkowski,Internist*in,verfügbar
+A4,Dr. Dilay Ayad,Internist*in,verfügbar
+A5,Dr. André Pierowski,Internist*in,verfügbar
+A6,Dr. Manuela Rodriguez,Internist*in,verfügbar
+A7,Dr. Helen Herzog,Internist*in,Urlaub
+A8,Dr. Rosa Piersch,Internist*in,verfügbar
+A9,Dr. Nicolaus Tegel,Internist*in,verfügbar
+A10,Dr. Thung Le,Internist*in,Urlaub
+A11,Dr. Mohammed Al Arez,Internist*in,verfügbar
+A12,Dr. Aylin Yilmaz,Internist*in,verfügbar
+P1,Leopold Gruner,Pflegekraft,verfügbar
+P2,Holly Kick,Pflegekraft,verfügbar
+P3,Niels Buch,Pflegekraft,verfügbar
+P4,Rebecca Koppe,Pflegekraft,verfügbar
+P5,Daniel Bauer,Pflegekraft,verfügbar
+P6,Conny Steiner,Pflegekraft,verfügbar
+P7,Dietmar Knittel,Pflegekraft,Urlaub
+P8,Tabea Siefert,Pflegekraft,verfügbar
+P9,Heino Grün,Pflegekraft,verfügbar
+P10,Viktoria Scheffel,Oberpflegekraft,verfügbar
+P11,Sandro Laue,Pflegekraft,verfügbar
+P12,Martha Fabian,Pflegekraft,verfügbar
+P13,Emil Strobel,Pflegekraft,verfügbar
+P14,Nico Schneller,Pflegekraft,Urlaub
+P15,Winfried Winter,Pflegekraft,verfügbar
+P16,Michaela Lehmkuhl,Pflegekraft,verfügbar
+P17,Frederik Habermann,Pflegekraft,verfügbar
+P18,Jaqueline Reinartz,Pflegekraft,verfügbar
+P19,Oskar Görgen,Pflegekraft,verfügbar
+P20,Dora Baumgarten,Oberpflegekraft,verfügbar
+P21,Ferdinand Dobler,Pflegekraft,verfügbar
+P22,Julia Maisch,Pflegekraft,verfügbar
+P23,Kai Wallner,Pflegekraft,verfügbar
+P24,Frieda Linder,Pflegekraft,verfügbar
+P25,Henning Thieme,Pflegekraft,verfügbar
+P26,Elvira Sowa,Pflegekraft,verfügbar
+P27,Almer Lorenz,Pflegekraft,verfügbar
+P28,Rebecca Pabst,Pflegekraft,verfügbar
+P29,Rico Hörmann,Pflegekraft,verfügbar
+P30,Emilie Bast,Pflegekraft,Urlaub
+P31,Sebastian Schill,Pflegekraft,verfügbar
+P32,Melanie Kloos,Pflegekraft,verfügbar
+P33,Henning Gruber,Pflegekraft,verfügbar
+P34,Julia Haack,Pflegekraft,verfügbar
+P35,Marco Baumgarten,Pflegekraft,verfügbar
+P36,Maximiliane Oster,Pflegekraft,verfügbar
+P37,Hanno Bäcker,Pflegekraft,Urlaub
+P38,Erna Breunig,Pflegekraft,verfügbar
+P39,Vinzenz Wolff,Pflegekraft,verfügbar
+P40,Eveline Kiesewetter,Pflegekraft,verfügbar
