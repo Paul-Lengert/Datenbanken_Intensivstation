@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh14700\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 drop table if exists patient cascade;\
+drop table if exists behandlung cascade;\
+drop table if exists zimmer cascade;\
+drop table if exists \'e4rzte cascade;\
+drop table if exists schicht cascade;\
+drop table if exists personal cascade;\
+drop table if exists zimmerbelegung cascade; \
+\
+create table patient(\
+	kv_nummer text primary key, \
+	vorname text,\
+	nachname text,\
+	geburtsdatum date,\
+	geschlecht char(1),\
+	patientenstatus text\
+ );\
+\
+\
+create table zimmer(\
+	zimmernummer integer primary key, \
+	gr\'f6\'dfe int\
+);\
+\
+create table personal(\
+	personal_id text primary key,\
+	vorname text,\
+	nachname text,\
+	berufsbezeichnung text,\
+	verf\'fcgbarkeit text\
+);\
+\
+create table schicht(\
+	schicht_id int primary key,\
+	jahr int,\
+	kw int,\
+	schichtart text,\
+        personal_id text references personal(personal_id)\
+);\
+\
+create table behandlung (\
+	behandlungs_id int primary key,\
+	kv_nummer text references patient(kv_nummer),\
+	diagnose text,\
+	personal_id text references personal(personal_id),\
+	behandlungs_start date,\
+	behandlungs_ende date\
+);\
+\
+Create table zimmerbelegung(\
+	zimmernummer int references zimmer(zimmernummer),\
+	kv_nummer text references patient(kv_nummer)\
+);\
+\
+\
+}
