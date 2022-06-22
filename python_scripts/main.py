@@ -154,30 +154,28 @@ def treatments():
             toDate = treatDate()
             currentDocs = ""
             secondDocs = ""
-            if currentPat[7] == "Prof. Dr. Huong Nguyen\n":
+            if currentPat[8] == "Prof. Dr. Huong Nguyen\n":
                 currentDocs = "A1"
                 secondDocs = "A6"
-            elif currentPat[7] == "Dr. Gustav Storch\n":
+            elif currentPat[8] == "Dr. Gustav Storch\n":
                 currentDocs = "A2"
                 secondDocs = "A7"
-            elif currentPat[7] == "Dr. Petra Steinkowski\n":
+            elif currentPat[8] == "Dr. Petra Steinkowski\n":
                 currentDocs = "A3"
                 secondDocs = "A8"
-            elif currentPat[7] == "Dr. Dilay Ayad\n":
+            elif currentPat[8] == "Dr. Dilay Ayad\n":
                 currentDocs = "A4"
                 secondDocs = "A9"
-            elif currentPat[7] == "Dr. André Pierowski\n":
+            elif currentPat[8] == "Dr. André Pierowski\n":
                 currentDocs = "A5"
                 secondDocs = "A10"
             while toDate < fromDate:
                 toDate = treatDate()
-            if currentPat[4] == "aktiv":
+            if currentPat[5] == "aktiv":
                 continue;
             else:
-                treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[
-                    6] + ',' + currentDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
-                treats.write(str(id) + ',' + currentPat[0] + ',' + currentPat[4] + ',' + currentPat[
-                    6] + ',' + secondDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
+                treats.write('B'+str(id) + ',' + currentPat[0] + ',' + currentPat[7] + ',' + currentDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
+                treats.write('B'+str(id) + ',' + currentPat[0] + ',' + currentPat[7] + ',' + secondDocs + ',' + str(fromDate) + ',' + str(toDate) + "\n");
                 id += 1
 
 
@@ -207,6 +205,4 @@ def shift():
             for m in range(22, 28):
                 sh.write(str(id) + ',' + str(i) + ",2022,Nachtschicht,P" + str(m) + "\n")
                 id += 1
-
-
-shift()
+treatments()
