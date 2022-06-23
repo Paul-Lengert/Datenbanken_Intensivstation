@@ -77,24 +77,26 @@ def KVNumber():
 
 
 def createMalePatients(num, file):
+    # Kontrollierte Begrenzung der Raumbelegung
     room_counter = 0
     for i in range(0, num):
         with open(file, 'r') as pa:
             current_text = pa.read()
         with open(file, 'a') as patients:
             current_kv = KVNumber()
-            current_room = "~"
+            current_room = "NULL"
             current_state = random.choice(state)
             current_doc = random.choice(doctors)
-            # Belegung des konkreten Raumes
+            # Belegung des konkreten Raumes für aktive Patienten
             if current_state == "aktiv" and room_counter < 10:
                 current_room = random.choice(rooms)
+                # Kontrollierte Zuweisung zur Belegung von Einzel- und Doppelzimmern, falls diese belegt sind
                 while (current_room < 106 and current_text.count(',' + str(current_room) + ',') >= 1) or (
                         105 < current_room <= 115 and current_text.count(',' + str(current_room) + ',') >= 2):
                     current_room = random.choice(rooms)
                 room_counter += 1
             else:
-                # bei Überbelegung leider verstorben oder blitzgeheilt
+                # bei Überbelegung leider verstorben oder geheilt
                 current_state = random.choice(bad_state)
 
             # Überwachung, dass sich kein Arzt überarbeitet
@@ -128,7 +130,7 @@ def createFemalePatients(num, file):
                     current_room = random.choice(rooms)
                 room_counter += 1
             else:
-                # bei Überbelegung leider verstorben oder blitzgeheilt
+                # bei Überbelegung leider verstorben oder geheilt
                 current_state = random.choice(bad_state)
 
             # Überwachung, dass sich kein Arzt überarbeitet
@@ -183,7 +185,7 @@ def shift():
     with open("../Ressources/shift.csv", 'w') as sh:
         id = 25430
         # Generiert die Woche
-        for i in range(1, 55):
+        for i in range(1, 54):
             # Generiert die Frühschicht
             for j in range(1, 6):
                 sh.write(str(id) + ',' + str(i) + ",2022,Frühschicht,A" + str(j) + "\n")
@@ -205,4 +207,3 @@ def shift():
             for m in range(22, 28):
                 sh.write(str(id) + ',' + str(i) + ",2022,Nachtschicht,P" + str(m) + "\n")
                 id += 1
-treatments()
